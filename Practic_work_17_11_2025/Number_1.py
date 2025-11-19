@@ -1,4 +1,5 @@
 # Задание 1
+import re
 
 # input_string = input("Введите строку: ")
 # reversed_string = input_string [::-1]
@@ -29,9 +30,9 @@
 
 # Задание 4
 
-text = input("Ввести текст: ")
-x = input("Введите слово для поиска: ")
-count_word = text.count(x)
+# text = input("Ввести текст: ")
+# x = input("Введите слово для поиска: ")
+# count_word = text.count(x)
 # val = ""
 # my_list = []
 # for i in text:
@@ -46,9 +47,12 @@ count_word = text.count(x)
 # for i in my_list:
 #     if i == x:
 #         words_counter +=1
+# print(count_word)
 
-print(
-    count_word
-)
+# Задание 5
 
-
+text1 = input("Введите текст: ")
+letter = input("Введите слово для поиска: ")
+replacement = input("Введите слово для замены: ")
+new_text = text1.replace(letter, replacement)
+print(new_text)
