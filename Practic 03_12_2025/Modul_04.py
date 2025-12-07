@@ -1,4 +1,5 @@
 from gettext import find
+from itertools import count
 
 # Задание 1
 # 1)
@@ -18,11 +19,32 @@ from gettext import find
 # print(counter)
 
 #3)
-text = "Cегодня у меня 1 дополнительное занятие! Cегодня среда 03 12 2025!"
-counter = 0
-for b in text:
-    if b == ("!"):
-        counter += 1
-print(counter)
+# text = "Cегодня у меня 1 дополнительное занятие! Cегодня среда 03 12 2025!"
+# counter = 0
+# for b in text:
+#     if b == ("!"):
+#         counter += 1
+# print(counter)
 
 # Задание 2
+
+# num = input("Введите элементы списка через пробел: ").split()
+# x = input("Введите любое число: ")
+# counter = 0
+# for a in num:
+#     if a == x:
+#         counter +=1
+# print(counter)
+
+# Задание 3
+
+# quantity = int(input("Введите количество элементов списка: "))
+# x = []
+# for i in range(0, quantity):
+#     object = int(input("Введите элемент списка: "))
+#     x.append(object)
+# res = sum(x) / quantity
+# print(res)
+
+
+
